@@ -1,6 +1,6 @@
 # Capstone-III
 
-The following code, uses a previously coded program called task_manager.py. Task_manager.py is a management system in which the users and tasks are stored in two external text files,
+The following code, uses a program called task_manager.py. Task_manager.py is a management system in which the users and tasks are stored in two external text files,
 with the users having the format "user, password" and the tasks having the format "user, task, brief description of task, date assigned, date due, complete". The goal is to allow users to log in with credentials and verify them by reading the textfiles. If the username and password is correct a menu screen is displayed. if the username is correct and the password is incorrect "incorrect password" is outputted, if the username is incorrect and the password is correct an appropriate error message is given, if neither are correct an error message is also given.
 The menu screen should have the options reg_user as a function that gets called when a user enters r , add_task as a function that gets called when a user enters u, view_all as a function that gets called when a user enters va , view_mine as a function that gets called when a user enters va.
 Only the admin should be able to register a user, and once a user gets register the user.txt file must be updated. If you are not admin, an appropriate error message should be outputted.
